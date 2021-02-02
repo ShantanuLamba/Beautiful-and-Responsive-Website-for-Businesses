@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-s{
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+.navbar-s img{
+    margin-top: 3px;
+    border-radius:5rem;
+}
+.navbar-s p{
+    float: right;
+    padding-top: 7px ;
+    margin-right: 1rem;
+    font-size: x-large;
+    font-family: sans-serif ;
+}
+.contact-cu{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+.contact-cu h1{
+    background-color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.phone-cu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(120, 202, 202) ;
+}
+.email-cu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(194, 159, 191);
+}
+.addr-cu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(202, 223, 110);
+}
+#h2-addr{
+    text-decoration: underline;
+}
+.footy{
+    text-align:center;
+    font-family: fantasy;
+    font-size: large;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

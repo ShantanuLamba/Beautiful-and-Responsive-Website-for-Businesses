@@ -1,0 +1,96 @@
+
+.footy{
+    background-color: white;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#main-banner{
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+}
+#main-banner img{
+    width: 100%;
+}
+#slider{
+    overflow: hidden;
+}
+#slides{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 12s slidy infinite;
+}
+#slides img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slidy{
+    0%{ left: 0%;}
+    28%{left: 0%;}
+    33%{left: -100%;}
+    61%{left: -100%;}
+    66%{left: -200%;}
+    94%{left: -200%;}
+    100%{left: 0%;}
+}
+
+
+.usp{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: azure;
+    overflow: auto;
+}
+#uspid ul {
+    list-style-type: none;
+}
+#uspid li{
+    float: left;
+}
+#uspid h2{
+    margin-right: 4rem;
+    text-align: right;
+}
+#uspid img{
+    padding: 20px;
+    background-color: rgb(161, 245, 77);
+    border-radius: 10%;
+    margin-left: 9rem;
+    
+}
+#usp2{
+    text-align: center;
+    background-color:azure;
+    padding-top: 1px;
+    padding-bottom: 1rem;
+}
+.usp:hover{
+    background-color: gold;
+}
+.happy-cons{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: aquamarine;
+    text-align: center;
+    animation: happyc 4s infinite;
+}
+@keyframes happyc{
+    0%{background-color:aquamarine ;}
+    45%{background-color:aquamarine;}
+    50%{background-color: salmon;}
+    95%{background-color: salmon;}
+    100%{background-color: aquamarine;}
+}
+
+
+
+
+
+
+

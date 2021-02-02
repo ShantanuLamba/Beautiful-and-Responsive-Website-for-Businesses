@@ -1,0 +1,31 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.nav-div{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+    font-family: Helvetica;
+}
+
+.d-body{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: monospace;
+}
+#a-d{
+    font-size: large;
+}
+#back-home{
+    text-align: center;
+}
